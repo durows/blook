@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>usernames_by_durows</title>
+  <link rel="stylesheet" href="assets/site1.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home">usernames_by_durows</a>
+        <button id="menuButton" class="menu-button" type="button" aria-expanded="false" aria-controls="siteNav">Stories</button>
+        <nav id="siteNav" class="site-nav" aria-label="Vignettes"></nav>
+
+        <img id="qrCode" class="qr-code"
+             src="https://api.qrserver.com/v1/create-qr-code/?size=70x70&data=https://fpsconnect.fargo.k12.nd.us/usernames_by_durows_prototype/index.html">
+
+    </header>
+
+    <main id="app">
+        <section id="homeView" class="home-view">
+            <div class="hero">
+                <p class="eyebrow">A blook in progress</p>
+                <h1>Stories, artifacts, experiments, and things I thought would be groovy.</h1>
+
+                <div class="hero-actions">
+                    <button id="startReading" class="primary-button" type="button">Start with vignette 1</button>
+                    <button id="shuffleButton" class="text-button" type="button">Surprise me</button>
+                </div>
+            </div>
+            <section class="collection-section" aria-labelledby="collectionHeading">
+                <div class="section-heading">
+                    <div><p class="eyebrow">The collection</p><h2 id="collectionHeading">Choose a story</h2></div>
+                    <div class="view-controls" aria-label="Layout options">
+                        <button class="view-button active" data-view="cards" type="button">Cards</button>
+                        <button class="view-button" data-view="list" type="button">List</button>
+                    </div>
+                </div>
+                <div id="storyGrid" class="story-grid"></div>
+            </section>
+        </section>
+
+        <article id="storyView" class="story-view" hidden>
+            <button id="backHome" class="back-button" type="button">← All vignettes</button>
+            <header class="story-hero">
+                <p id="storyNumber" class="eyebrow"></p>
+                <h1 id="storyTitle"></h1>
+                <div id="storyTags" class="tag-row"></div>
+            </header>
+            <div class="story-layout">
+                <aside class="story-aside">
+                    <div class="aside-box">
+                        <span class="aside-label">Version</span>
+
+                        <div class="version-toggle" role="group" aria-label="Choose story version">
+
+                            <button id="mavenVersion" class="version-button" type="button">
+                                Maven Edit
+                            </button>
+
+
+                            <button id="originalVersion" class="version-button active" type="button">
+                                Steven Original
+                            </button>
+
+
+                        </div>
+                    </div>
+
+                    <div class="aside-box">
+                        <span class="aside-label">Reading mode</span>
+                        <button id="focusToggle" class="aside-button" type="button">
+                            Hide artifacts
+                        </button>
+                    </div>
+                    <div class="aside-box note-box">
+                        <span class="aside-label">Prototype note</span>
+                        <p>Please let me know if you have issues with links. thanks! <a href="mailto:durows4143@gmail.com">durows4143@gmail.com</a></p>
+                    </div>
+                </aside>
+                <div id="storyContent" class="story-content"></div>
+            </div>
+            <nav class="story-pagination" aria-label="Story navigation">
+                <button id="prevStory" type="button"></button>
+                <button id="nextStory" type="button"></button>
+            </nav>
+        </article>
+    </main>
+    <footer><span>usernames_by_durows</span><span>Layout prototype · 13 vignettes</span></footer>
+    <script src="assets/site2.js"></script>
+    <div id="artifactModal"
+         class="artifact-modal"
+         role="dialog"
+         aria-modal="true"
+         aria-hidden="true"
+         aria-labelledby="artifactModalTitle">
+
+        <div class="artifact-modal-content">
+            <button type="button"
+                    class="artifact-modal-close"
+                    aria-label="Close artifact"
+                    onclick="closeArtifactModal()">
+                &times;
+            </button>
+
+            <h2 id="artifactModalTitle" class="artifact-modal-title"></h2>
+
+            <img id="artifactModalImage"
+                 class="artifact-modal-image"
+                 src=""
+                 alt="">
+
+            <div id="artifactModalCaption"
+                 class="artifact-modal-caption"></div>
+        </div>
+    </div>
+</body>
+</html>
