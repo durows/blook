@@ -3,7 +3,7 @@
     "id": "MiniRulerIncluded",
     "number": 1,
     "title": "Mini Ruler Included",
-    "status": "ok. sentence structure is weak.",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -19,7 +19,7 @@
     "id": "parabolaTracer",
     "number": 2,
     "title": "The Parabola Tracer",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -35,7 +35,7 @@
     "id": "Fireups",
     "number": 3,
     "title": "Fire-Ups",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -51,7 +51,7 @@
     "id": "piPoster",
     "number": 4,
     "title": "The Pi Poster",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -82,7 +82,7 @@
     "id": "pepSong",
     "number": 6,
     "title": "The Pep Song",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -98,7 +98,7 @@
     "id": "triCollege",
     "number": 7,
     "title": "The Tri-College Math Contest",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -114,7 +114,7 @@
     "id": "piStudents",
     "number": 8,
     "title": "Students Form Pi",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -130,7 +130,7 @@
     "id": "PiCake",
     "number": 9,
     "title": "The Pi Cake",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -146,7 +146,7 @@
     "id": "GoodJobPencils",
     "number": 10,
     "title": "Good Job Pencils",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -162,7 +162,7 @@
     "id": "FermatLastTheorem",
     "number": 11,
     "title": "Fermat’s Last Theorem",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -178,7 +178,7 @@
     "id": "Postcard",
     "number": 12,
     "title": "The Postcard",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -194,7 +194,7 @@
     "id": "piSong",
     "number": 13,
     "title": "The Pi Song",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
@@ -213,7 +213,7 @@
     "id": "MathPaper",
     "number": 14,
     "title": "Papergate",
-    "status": "draft",
+    "status": "version 1.0",
     "publish": "Published",
     "lastEdited": "2026-07-29",
     "tags": [
