@@ -169,7 +169,7 @@ const blookArtifacts = {
         title: "Making of Pi Day",
         image: "assets/images/PiCake/cardboardMontage.png",
         alt: "Making of Pi Day",
-        caption: "Cutting up cardboard to transport pi cake. The video is avaiable if one so desires."
+        caption: "Cutting up cardboard to transport pi cake. Video available for purchase."
     },
     digits: {
         title: "Making of Pi Day",
